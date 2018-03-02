@@ -1,0 +1,114 @@
+body{
+	margin: 0 auto;
+}
+.background{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 610px;
+	background: url(../backImg/1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+}
+.backgroundBox{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 30px;
+}
+header{
+	text-align: center;
+}
+header h1{
+	margin: 0;
+	color: white;
+	font-size: 40px;
+	font-family: lucida console;
+	text-shadow: 1px 8px 8px black;
+}
+header p{
+	margin: 0;
+	font-size: 18px;
+	color: white;
+	text-transform: uppercase;
+	font-family: monospace;
+}
+nav{ 
+    padding-top: 10px;
+}
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav ul li{
+    padding: 10px;
+    text-transform: uppercase;
+    color: #fff;
+
+}
+nav ul li a:hover{
+    color: #3b3b3b;
+
+}
+li a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: franklin gothic medium;
+    text-shadow: 1px 8px 8px black;
+}
+.hrLine{
+	border:30px white;
+	height: 10px;
+	margin: 0;
+	background-color: #3b3b3b;
+}
+.hrLine1{
+	border:none;
+	width: 100%;
+	height: 10px;
+	margin: 0;
+	background: rgba(116, 100, 100,0.2);
+}
+.block{
+	text-align: center;	
+	width: 950px;
+	height: 600px;
+	background: url(../backImg/2.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	top: 150px;
+	text-shadow: 1px 5px 8px black;
+}
+.block h1{
+	color: white;
+	font-size: 50px;
+	font-family: lucida console;
+	margin-top: 250px;
+	margin-bottom: 0;
+}
+.block h2{
+	margin: 0;
+	font-size: 18px;
+	color: white;
+	text-transform: uppercase;
+	font-family: monospace;
+}
+.Box2{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 200px;
+}
+.Box2 h1{
+	
+}
